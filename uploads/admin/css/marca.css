@@ -1,0 +1,33 @@
+#endereco{
+	font-size: 14px;
+	font-weight: bold;
+	color: blue;
+}
+#rsociais{
+	font-size: 14px;
+	font-weight: bold;
+	color: blue;
+}
+#new_address{
+	background-color: #FFFAFA;
+	width: 45%;
+}
+#logodiv{	
+	position: absolute;	
+	width: 50%;	
+	left: 450px;
+	top: 160px;	
+}
+.peq_logo{
+	width: 160px;
+	height: 60px;
+}
+.peq_logo2{
+	width: 400px;
+	height: 80px;
+}
+#marca_aut{	
+	width: 50%;		
+	position: relative;	
+}
+

@@ -1,0 +1,14 @@
+function validar_login__ajax(){
+			var controller = 'ajax_sample';
+            var base_url = '<?php echo site_url(); ?>';
+			
+			var retorno = null;
+			$.ajax({
+				'url' : base_url + '/' + controller + '/get_list_view',
+                'type' : 'POST',                 
+                'success' : function(data){ 
+					retorno = data;
+                }
+            });
+			return retorno;
+        }

@@ -1,0 +1,72 @@
+td, th {	
+	border:1px solid black;
+	text-align: center;
+	font-family: "Times New Roman";
+	font-size: 14px;
+	
+}
+#tbdados_principal{
+	width: 860px;
+}
+
+#tbdados_secundario{
+	width: 900px;
+}
+#foto_endereco_principal{	
+	position: relative;
+	float: right;
+	top: 400px;
+}
+#foto_endereco_secundaria{
+	float: right;
+	position: relative;
+	top: 390px;
+}
+
+
+
+#rsociais{
+	font-size: 14px;
+	font-weight: bold;
+	color: blue;
+}
+
+#tbdados_principal td:first-child{
+	width: 80px;
+}
+#tbdados_principal td:nth-child(2){
+	width: 350px;
+}
+#tbdados_principal td:nth-child(3){
+	width: 135px;	
+}
+#tbdados_principal td:nth-child(4){
+	width: 160px;	
+}
+#tbdados_principal td:nth-child(5){
+	width: 50px;	
+}
+#tbdados_principal td:nth-child(6){
+	width: 130px;	
+}
+#tbdados_principal td:nth-child(7){
+	width: 130px;	
+}
+#tbdados_principal td:nth-child(8){
+	width: 130px;	
+}
+
+#tbdados_secundario a{
+	color: red;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+
+
+th{
+	background-color: #4682B4;
+	color: white;
+}
+
+

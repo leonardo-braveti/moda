@@ -1,0 +1,4 @@
+AuthName "admin"
+AuthUserFile "/home/modanabr/.htpasswds/public_html/catalogo/catsite001/admin/passwd"
+AuthType Basic
+require valid-user

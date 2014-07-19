@@ -1,0 +1,36 @@
+td, th {	
+	border:1px solid black;
+	text-align: center;
+	font-family: "Times New Roman";
+	font-size: 12px;
+	font-weight: bold;
+}
+table{
+	width: 950px;
+}
+
+td:first-child{ /* nome */
+	max-width: 90px;
+}
+td:nth-child(2){ /* email  */
+	width: 100px;	
+}
+td:nth-child(3){ /* telefone */
+	width: 120px;	
+}
+td:nth-child(4){ /* assunto */
+	max-width: 120px;	
+}
+td:nth-child(5){ /* mensagem */
+	width: 210px;	
+}
+td:nth-child(6){ /* data */
+	max-width: 70px;	
+}
+td:nth-child(7){ /* hora */
+	max-width: 70px;	
+}
+th{
+	background-color: #4682B4;
+	color: white;
+}

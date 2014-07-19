@@ -1,0 +1,67 @@
+td, th {	
+	border:1px solid black;
+	text-align: center;
+	font-family: "Times New Roman";
+	font-size: 15px;
+	font-weight: bold;
+}
+table{
+	width: 930px;
+}
+#msg_foto{
+	color:red;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+td:first-child{
+	width: 80px;
+}
+td:nth-child(2){
+	width: 30px;
+}
+td:nth-child(3){
+	width: 80px;	
+}
+td:nth-child(4){
+	width: 110px;	
+}
+td:nth-child(5){
+	width: 60px;	
+}
+td:nth-child(6){
+	width: 60px;	
+}
+td:nth-child(7){
+	width: 100px;	
+}
+td:nth-child(8){
+	width: 40px;	
+}
+td:nth-child(9){
+	width: 60px;	
+}
+td:nth-child(10){
+	width: 160px;	
+}
+td:nth-child(11){
+	width: 50px;	
+}
+
+th{
+	background-color: #4682B4;
+	color: white;
+}
+
+#form2{		
+	position: relative;	
+	top: -705px;
+	width: 50%;
+}
+#formfoto{
+	position: relative;		
+	left: 430px;
+	top: 20px;
+	
+	
+}

@@ -1,0 +1,105 @@
+body{
+	margin:0;
+	padding:0;	
+	background-image: "sandpaper.png";
+}
+#site{	
+	width:1045px;
+	height:600px;		
+	margin: 0 auto;	
+}
+#topo{
+	height:130px;	
+}
+#topo_esq{
+	position: relative;	
+	left: 60px;
+	width: 400px;	
+}
+
+#topo_dir{
+	position: relative;	
+	top: -140px;
+	left: -140px;	
+	
+}
+
+
+
+
+#adm{
+	font-size: 15px;
+}
+#frase1{
+	position: absolute;	
+	top: 40px;
+	left: 897px;
+	color: #6495ED;	
+	font-family: "Arial";
+	font-size: 14px;
+}
+#frase2{
+	position: absolute;	
+	top: 70px;
+	left: 846px;
+	color: #6495ED;	
+	font-family: "Arial";
+	font-size: 14px;
+}
+#frase3{
+	position: absolute;	
+	top: 100px;
+	left: 970px;
+	color: #6495ED;	
+	font-family: "Arial";
+	font-size: 14px;
+}
+#corpo{		
+	width:600px;
+	height:350px;	
+	margin: 0 auto;	
+	text-align:center;
+}
+#letreiro{	
+	text-align: center;
+	font-family: "Arial";
+	font-size: 30px;	
+}
+label{
+	font-family: "Arial";
+	font-size: 22px;	
+}
+#email, #senha{
+	height: 35px;	
+	border-radius: 10px;
+	font-family: "Arial";
+	font-size: 19px;	
+	border-radius: 50px;
+}
+p, a{
+	font-family: "Arial";	
+}
+#rodape{
+	font-size: 15px;		
+	text-align: center;
+	width:600px;
+	margin: 0 auto;	
+}
+#data {
+	font-family: "Arial";
+	font-size: 13px;
+}
+#entrar{
+	height: 35px;
+	width:170px;
+	font-family: "Arial";
+	font-size: 16px;
+	border-radius: 50px;
+}
+#txt_erro{
+	left: 100px;
+	text-align:center;
+	font-family: "Arial";
+	font-size: 14px;	
+	width:800px;
+}

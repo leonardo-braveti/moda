@@ -1,0 +1,11 @@
+<?php
+	class Ajax_sample extends CI_Controller {
+ 
+		function get_list_view(){
+ 
+			//$this->load->model('test_model'); 		
+			//$this->load->view('sample_table', "legal");
+			echo "legal";
+		}
+}
+?>

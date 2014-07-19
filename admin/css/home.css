@@ -1,0 +1,177 @@
+body{
+	margin: 0;
+	padding: 0;		
+}
+#site{	
+	width: 1200px;			
+	margin: 5px auto;	
+}
+#topo{
+	height:130px;	
+}
+#menu{
+	top: -619px;	
+	width:250px;		
+	left: 0px;	
+}
+#conteudo{		
+	position: absolute;	
+	top: 185px;
+	left: 350px;	
+	width: 950px;
+		
+}
+
+#rodape{		
+	top: 8px;	
+	position: relative;
+	font-size: 15px;		
+	font-weight: bold;
+	text-align: center;
+	width: 250px;
+	margin: 0 auto;		
+}
+#adm{
+	font-size: 15px;
+}
+#topo_esq_home{
+	position: relative;	
+	top: -20px;
+	left: 0px;
+	width: 400px;	
+}
+
+#topo_centro{
+	position: relative;	
+	top: -90px;
+	left: 330px;
+}
+
+#topo_dir_home{
+	position: relative;	
+	top: -230px;
+	left: 1000px;	
+	color: #6495ED;		
+	font-family: "Arial";
+	font-size: 12px;
+	
+}
+#boas_vindas{
+	font-family: "Arial";
+	position: absolute;	
+	top: 143px;
+	font-size: 15px;	
+}
+
+#frase1{
+	position: relative;
+	left: 95px;
+}
+
+#frase2{
+	position: relative;
+	left: 55px;
+}
+
+#frase3{
+	position: relative;
+	left: 160px;
+}
+h4{
+	background-color: #C0C0C0;
+	width: 250px;
+	text-align: center;
+	top: 600px;
+	height: 23px;
+	font-size: 21px;	
+}
+#letreiro{	
+	text-align: center;
+	font-family: "Arial";			
+	height: 23px;
+	font-size: 18px;	
+}
+#atencao{	
+	text-align: center;
+	font-family: "Arial";
+	font-size: 15px;	
+	color: red;	
+}
+#instrucoes{
+	background-color: #C0C0C0;	
+}
+label{
+	font-family: "Arial";
+	font-size: 15px;	
+}
+li{
+	font-family: "Arial";
+	font-size: 22px;	
+	color: green;	
+}
+p, a {
+	font-family: "Arial";	
+}
+
+#data {
+	font-family: "Arial";
+	font-size: 14px;
+}
+#autemail, #autacesso, #dinproduto, #novouser, #autuser{	
+	width: 400px;
+}
+input[type="text"], input[type="password"]{	
+	width: 400px;
+	height: 31px;
+	text-align: left;
+	font-family: "Arial";
+	border-radius: 50px;
+	font-size: 14px;
+}
+
+input[type="file"]{
+	width: 400px;
+	height: 28px;
+	font-family: "Arial";
+	font-size: 14px;
+}
+
+select{
+	width: 110px;
+	height: 30px;
+	font-family: "Arial";
+	border-radius: 10px;
+	left: 100px;	
+	height: 30px;
+}
+#salvar, #novo_usuario, .atualizar, #novo_produto, #registrar, #up_lay_menu, #sv_lay_menu{
+	width: 120px;	
+	border-radius: 50px;
+}
+#observacao, #descricao, #adescricao, #texto_contato, #texto_empresa{
+	width: 400px;
+	height: 80px;
+	border-radius: 10px;
+	font-family: "Arial";
+	font-size: 14px;
+}
+#sair{
+	width:250px;
+	border-radius: 50px;
+}
+
+#msg_foto{
+	color:red;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#mensageria{
+	width: 950px;
+	height: 500px;
+}
+
+#bnoticia{
+	position: relative;	
+	left: 40px;
+}
