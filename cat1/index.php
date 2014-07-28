@@ -160,14 +160,36 @@
 				$("#addir").css("height", altura);
 				$("#parte1").css("height", altura);	
 
+				var latual = $(document).width();
+
+				if(latual < 800){
+					$("#addir").hide();	
+					$("#addir2").show();						
+				}
+				else{
+					$("#addir").show();	
+					$("#addir2").hide();		
+				}
+
+
 				function aviso(){
            			altura = $("#adesq").css("height");				
 					$("#addir").css("height", altura);
 					$("#parte1").css("height", altura);	
-        		}		
+					
+					var latual = $(document).width();
 
-				window.onresize = aviso;
-	
+					if(latual < 800){
+						$("#addir").hide();	
+						$("#addir2").show();						
+					}
+					else{
+						$("#addir").show();	
+						$("#addir2").hide();		
+					}
+
+				}
+				window.onresize = aviso;	
 		});
 
 				
@@ -177,8 +199,7 @@
 		.gmap3{
                 margin: 20px auto;
                 border: 1px dashed #C0C0C0;
-                /*width: 700px;*/
-                /*height: 400px;*/
+                
         }
 		a:link{
 			color: white;
@@ -235,6 +256,18 @@
 				</div>
 				
 				<div id="addir">
+					<p>
+					<?php 
+						echo "<span class='realce titulo'> Endereco de Acesso: </span></br>";
+						echo $empresa["dir_acesso"]."</br>";
+						echo "<span class='realce titulo'> Email: </span></br>";
+						echo $empresa["email"]."</br>";	
+					?>
+					</p>
+				</div>
+			</div>
+			<div>
+				<div id="addir2">
 					<p>
 					<?php 
 						echo "<span class='realce titulo'> Endereco de Acesso: </span></br>";

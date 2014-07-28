@@ -221,26 +221,14 @@
 		top: 55px;
 		margin: auto;
 		padding: 0;
-		background-color: #white;
+		background-color: white;
 		color: black;
 		padding: 40px 0 20px; 		
 		}
 	.titulo{
 			font-size: 15px;
 	}
-	#adesq{
-		font-size: 13px;
-		position: relative;	
-		float: left;
-		max-width: 55%;
-		word-wrap: break-word;
-	}
-	#addir{
-		font-size: 13px;
-		position: relative;
-		float: right;
-		width: 45%;	
-	}
+	
 	#adcentro{
 		width: 100%;
 		font-size: 20px;
@@ -596,31 +584,18 @@
 
 	.contactform {
 		padding: 0 10px;
-<<<<<<< HEAD
-		margin-top: 30px; }
-=======
 		margin-top: 30px; 
-		min-width: 90%;		
-		position:blocked;
-	}
->>>>>>> terminei o cat1
+	}	
 
 	.contactform label {
 		font-size: 16px; }
 
-<<<<<<< HEAD
 	.contact-details { padding: 50px 10px 0; }
 
-	@media only screen and (max-width: 767px) {
-		.contact-details { padding-top: 0; }
-=======
-	.contact-details { padding: 50px 10px 0; 
-	  display: block;
-	  overflow: hidden;clear: both; float:left; position: relative;}
 
 	@media only screen and (max-width: 767px) {
 		.contact-details { padding-top: 0;  }
->>>>>>> terminei o cat1
+
 	}
 
 	.contact-details h4 {
@@ -695,7 +670,7 @@
 
 
 /*-----------------------------------------------------------------
-	#Bacground Fix For Tablets
+	#Background Fix For Tablets
 ------------------------------------------------------------------- */
 
 	@media only screen and (max-width: 1024px) {

@@ -33,13 +33,13 @@
 	/* Base Grid */
 	.container .one.column,
 	.container .one.columns                     { width: 25px;  }
-	.container .two.columns                     { width: 80px; }
+	.container .two.columns                     { width: 80px;  }
 	.container .three.columns                   { width: 130px; }
 	.container .four.columns                    { width: 190px; }
 	.container .five.columns                    { width: 250px; }
 	.container .six.columns                     { width: 300px; }
 	.container .seven.columns                   { width: 360px; }
-	.container .eight.columns                   { width: 41px; }
+	.container .eight.columns                   { width: 41px;  }
 	.container .nine.columns                    { width: 480px; }
 	.container .ten.columns                     { width: 510px; }
 	.container .eleven.columns                  { width: 590px; }
@@ -68,8 +68,7 @@
 	.container .offset-by-thirteen              { padding-left: 780px; }
 	.container .offset-by-fourteen              { padding-left: 800px; }
 	.container .offset-by-fifteen               { padding-left: 800px; }
-<<<<<<< HEAD
-=======
+
 	.gmap3{
                 margin: 20px auto;
                 border: 1px dashed #C0C0C0;
@@ -80,8 +79,21 @@
     #foto_banner{
         	width: 100%;
     }
->>>>>>> terminei o cat1
 
+
+	#adesq{
+		font-size: 13px;
+		position: relative;	
+		float: left;
+		max-width: 50%;
+		word-wrap: break-word;
+	}
+	#addir{
+		font-size: 13px;
+		position: relative;
+		float: right;
+		width: 45%;			
+	}
 
 
 /* #Tablet (Portrait)
@@ -134,8 +146,7 @@
 		.container .offset-by-thirteen              { padding-left: 624px; }
 		.container .offset-by-fourteen              { padding-left: 672px; }
 		.container .offset-by-fifteen               { padding-left: 720px; }
-<<<<<<< HEAD
-=======
+
 		.gmap3{
                 margin: 20px auto;
                 border: 1px dashed #C0C0C0;
@@ -146,7 +157,21 @@
         #foto_banner{
         	width: 100%;
     	}
->>>>>>> terminei o cat1
+
+
+		#adesq{
+			font-size: 13px;
+			position: relative;	
+			float: left;
+			max-width: 50%;
+			word-wrap: break-word;
+		}
+		#addir{
+			font-size: 13px;
+			position: relative;
+			float: right;
+			width: 45%;	
+		}	
 	}
 
 
@@ -196,8 +221,7 @@
 		.container .offset-by-thirteen,
 		.container .offset-by-fourteen,
 		.container .offset-by-fifteen { padding-left: 0; }
-<<<<<<< HEAD
-=======
+
 		.gmap3{
                 margin: 20px auto;
                 border: 1px dashed #C0C0C0;
@@ -209,8 +233,19 @@
 
         }
 
->>>>>>> terminei o cat1
-
+        #adesq{
+			font-size: 13px;
+			position: relative;	
+			float: left;
+			max-width: 100%;
+			word-wrap: break-word;
+		}
+		#addir2{
+			position: relative;
+			top: -13px;
+			font-size: 12px;
+			max-width: 100%;			
+		}
 	}
 
 
@@ -243,8 +278,7 @@
 		.container .sixteen.columns,
 		.container .one-third.column,
 		.container .two-thirds.column { width: 420px; }
-<<<<<<< HEAD
-=======
+
 		.gmap3{
                 margin: 20px auto;
                 border: 1px dashed #C0C0C0;
@@ -255,7 +289,20 @@
         	width: 100%;
     	}
 
->>>>>>> terminei o cat1
+    	#adesq{
+			font-size: 13px;
+			position: relative;	
+			float: left;
+			max-width: 100%;
+			word-wrap: break-word;
+		}
+		#addir2{
+			position: relative;
+			top: -13px;
+			font-size: 12px;
+			max-width: 100%;						
+		}
+
 	}
 
 /* #Wide 1200px Grid
@@ -316,8 +363,7 @@
 		.folioimg img { 
 			height: 100%;
 			width: 220px; } 
-<<<<<<< HEAD
-=======
+
 		.gmap3{
                 margin: 20px auto;
                 border: 1px dashed #C0C0C0;
@@ -327,7 +373,20 @@
         #foto_banner{
         	width: 100%;
     	}
->>>>>>> terminei o cat1
+
+		#adesq{
+			font-size: 13px;
+			position: relative;	
+			float: left;
+			max-width: 50%;
+			word-wrap: break-word;
+		}
+		#addir{
+			font-size: 13px;
+			position: relative;
+			float: right;
+			width: 45%;	
+		}
 	}
 
 /* #Clearing
